@@ -29,7 +29,7 @@
 	,"history_size": 5
 
 	// Show git flow commands
-	,"flow": false
+	,"flow": true
 
 	// Annotations default to being on for all files. Can be slow in some cases.
 	,"annotations": false

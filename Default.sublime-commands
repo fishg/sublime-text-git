@@ -218,4 +218,12 @@
         "caption": "Git: Commit history",
         "command": "git_commit_history"
     }
+    ,{
+        "caption": "Git: Git svn rebase",
+        "command": "git_svn_rebase"
+    }
+    ,{
+        "caption": "Git: Git svn dcommit",
+        "command": "git_svn_commit"
+    }
 ]

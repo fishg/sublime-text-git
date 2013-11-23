@@ -391,3 +391,11 @@ class GitGitkCommand(GitTextCommand):
     def run(self, edit):
         command = ['gitk']
         self.run_command(command)
+class GitSvnRebaseCommand(GitTextCommand):
+    def run(self, edit):
+        command = ['git','svn','rebase']
+        self.run_command(command)
+class GitSvnCommitCommand(GitTextCommand):
+    def run(self, edit):
+        command = ['git','svn','dcommit']
+        self.run_command(command)
